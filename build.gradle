@@ -3,6 +3,9 @@
 buildscript {
     
     repositories {
+        maven {
+            url "https://jcenter.bintray.com"
+        }
         google()
         jcenter()
     }
