@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">MCA Admission Help</string>
+    <string name="eligibility_requirements"><![CDATA[Eligibility & Requirements]]></string>
+    <string name="j_k_and_nri_candidates"><![CDATA[J&K and NRI Candidates]]></string>
+    <string name="contact_dte">Contact DTE</string>
+    <string name="developers">Developers</string>
+    <string name="my_questions">My Questions</string>
+    <string name="ask_questions">Ask Questions</string>
+    <string name="faqs">FAQs</string>
+    <string name="institute_wise_allotment">Institute wise Allotment</string>
+    <string name="latest_notification">Latest Notification</string>
+    <string name="important_dates">Important Dates</string>
+    <string name="arc">ARC</string>
+    <string name="fc">FC</string>
+    <string name="college">College</string>
+    <string name="fees">Fees</string>
+    <string name="admission_steps">Admission Steps</string>
 </resources>
