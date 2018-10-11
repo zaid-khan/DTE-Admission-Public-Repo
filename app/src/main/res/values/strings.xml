@@ -15,4 +15,19 @@
     <string name="college">College</string>
     <string name="fees">Fees</string>
     <string name="admission_steps">Admission Steps</string>
+    <string name="q1">Q : I belong to OBC category. I have Caste certificate and Non Creamy layer certificate but not the Caste Validity Certificate. Is Caste Validity Certificate Compulsory?</string>
+    <string name="ans1">Ans: Yes, The Caste/ Tribe Validity Certificate is mandatory to substantiate the claim. If the candidate fails to produce the document, he/she shall be converted to OPEN.</string>
+    <string name="q2">Q : I belong to NT-B category. I have Caste certificate and Caste Validity Certificate but not the Non Creamy layer certificate? Can I claim NT-B category?</string>
+    <string name="ans2">Ans : No, Non Creamy layer certificate valid up to 31st March 2019 is compulsory to claim the category.</string>
+    <string name="q3">Q : Instead of Full Name , I have filled the first name at the time of Registration for CET. How to get it corrected ?</string>
+    <string name="ans3">"Ans : The candidate have to submit the request through the Login to change the name and report to the Facilitation Center along with other Original documents mentioned on the Hall Ticket/Admit Card. The Officer shall verity the details and approved the change in name. "</string>
+    <string name="q4">Q :  My 10th CBSE result is in grade points. So how should I enter marks obtained and out of Marks while filling the form ?</string>
+    <string name="ans4">"Ans : The Principal of the Institution give the Marksheet to the candidates. "</string>
+    <string name="q5">Q : I belong to the Maharashtra Type A candidate. Can I send the documents for Document Verification by Post to FC or State CET Cell?</string>
+    <string name="ans5">"Ans : No, Candidate need to come to FC Center for Document Verification. The applications received by Post/Courier shall not be processed. "</string>
+    <string name="q6">"Q : I have completed HSC and Graduation from Maharashtra and born in Maharashtra, but I do not have the domicile certificate. What is my type of Candidature ?"</string>
+    <string name="ans6">"Ans : The candidate has to produce the Birth Certificate indicating place of Birth in Maharashtra to substantiate the Claim as Maharashtra Type A. If the candidate fails to produce the certificate, candidate can submit the Domicile certificate of Father or Mother and claim as Maharashtra Type B Candidature. The candidate should check Type C / D / E Type. "</string>
+    <string name="q7">"Q : I have completed my Graduation from Nagpur and I am Type B candidate as I have domicile of my Father issued by authority at Jalgaon. What will be my Home University? "</string>
+    <string name="ans7">"Ans : The Home University depends on district of the domicile certificate issuing authority which is Jalgon. Hence the Home University shall be North Maharashtra University. "</string>
+
 </resources>

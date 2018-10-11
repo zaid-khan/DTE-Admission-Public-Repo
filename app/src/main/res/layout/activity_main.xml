@@ -14,89 +14,105 @@
             android:baselineAligned="false"
             android:orientation="horizontal">
 
-            <LinearLayout
+            <com.balysv.materialripple.MaterialRippleLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:background="#ffffff"
-                android:elevation="10dp"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="8dp">
+                android:layout_height="wrap_content">
 
-                <ImageView
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:contentDescription="@string/college"
-                    android:padding="12dp"
-                    android:src="@drawable/ic_university"
-                    android:tint="@color/colorPrimary" />
-
-                <TextView
-                    android:layout_width="90dp"
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:elevation="10dp"
                     android:gravity="center"
-                    android:text="@string/college"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
+                    android:orientation="vertical"
+                    android:padding="8dp">
 
-            <LinearLayout
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:contentDescription="@string/college"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_university"
+                        android:tint="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/college"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:background="#ffffff"
-                android:elevation="10dp"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="8dp">
+                android:layout_height="wrap_content">
 
-                <ImageView
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:contentDescription="@string/fc"
-                    android:padding="12dp"
-                    android:src="@drawable/ic_arc"
-                    android:tint="@color/colorPrimary" />
-
-                <TextView
-                    android:layout_width="90dp"
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:elevation="10dp"
                     android:gravity="center"
-                    android:text="@string/fc"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
+                    android:orientation="vertical"
+                    android:padding="8dp">
 
-            <LinearLayout
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:contentDescription="@string/fc"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_arc"
+                        android:tint="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/fc"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:background="#ffffff"
-                android:elevation="10dp"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="8dp">
+                android:layout_height="wrap_content">
 
-                <ImageView
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:contentDescription="@string/arc"
-                    android:padding="12dp"
-                    android:src="@drawable/ic_arc"
-                    android:tint="@color/colorPrimary" />
-
-                <TextView
-                    android:layout_width="90dp"
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:elevation="10dp"
                     android:gravity="center"
-                    android:text="@string/arc"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:contentDescription="@string/arc"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_arc"
+                        android:tint="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/arc"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </com.balysv.materialripple.MaterialRippleLayout>
 
         </LinearLayout>
 
@@ -106,186 +122,107 @@
             android:baselineAligned="false"
             android:orientation="horizontal">
 
-            <LinearLayout
+            <com.balysv.materialripple.MaterialRippleLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:background="#ffffff"
-                android:elevation="10dp"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="8dp">
+                android:layout_height="wrap_content">
 
-                <ImageView
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:contentDescription="@string/eligibility_requirements"
-                    android:padding="12dp"
-                    android:src="@drawable/ic_eligibility"
-                    android:tint="@color/colorPrimary" />
-
-                <TextView
-                    android:layout_width="90dp"
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:elevation="10dp"
                     android:gravity="center"
-                    android:text="@string/eligibility_requirements"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
+                    android:orientation="vertical"
+                    android:padding="8dp">
 
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:contentDescription="@string/eligibility_requirements"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_eligibility"
+                        android:tint="@color/colorPrimary" />
 
-            <LinearLayout
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/eligibility_requirements"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:background="#ffffff"
-                android:elevation="10dp"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="8dp">
+                android:layout_height="wrap_content">
 
-                <ImageView
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:contentDescription="@string/admission_steps"
-                    android:padding="12dp"
-                    android:src="@drawable/ic_admissionsteps"
-                    android:tint="@color/colorPrimary" />
-
-                <TextView
-                    android:layout_width="90dp"
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:elevation="10dp"
                     android:gravity="center"
-                    android:text="@string/admission_steps"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
+                    android:orientation="vertical"
+                    android:padding="8dp">
 
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:contentDescription="@string/admission_steps"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_admissionsteps"
+                        android:tint="@color/colorPrimary" />
 
-            <LinearLayout
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/admission_steps"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:background="#ffffff"
-                android:elevation="10dp"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="8dp">
+                android:layout_height="wrap_content">
 
-                <ImageView
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:contentDescription="@string/important_dates"
-                    android:padding="12dp"
-                    android:src="@drawable/ic_calendar"
-                    android:tint="@color/colorPrimary" />
-
-                <TextView
-                    android:layout_width="90dp"
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:elevation="10dp"
                     android:gravity="center"
-                    android:text="@string/important_dates"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
+                    android:orientation="vertical"
+                    android:padding="8dp">
 
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:contentDescription="@string/important_dates"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_calendar"
+                        android:tint="@color/colorPrimary" />
 
-        </LinearLayout>
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/important_dates"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:baselineAligned="false"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:background="#ffffff"
-                android:elevation="10dp"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="8dp">
-
-                <ImageView
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:contentDescription="@string/latest_notification"
-                    android:padding="12dp"
-                    android:src="@drawable/ic_notification"
-                    android:tint="@color/colorPrimary" />
-
-                <TextView
-                    android:layout_width="90dp"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="@string/latest_notification"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:background="#ffffff"
-                android:elevation="10dp"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="8dp">
-
-                <ImageView
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:contentDescription="@string/institute_wise_allotment"
-                    android:padding="12dp"
-                    android:src="@drawable/ic_allotment"
-                    android:tint="@color/colorPrimary" />
-
-                <TextView
-                    android:layout_width="90dp"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="@string/institute_wise_allotment"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:background="#ffffff"
-                android:elevation="10dp"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="8dp">
-
-                <ImageView
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:contentDescription="@string/fees"
-                    android:padding="12dp"
-                    android:src="@drawable/ic_fees"
-                    android:tint="@color/colorPrimary" />
-
-                <TextView
-                    android:layout_width="90dp"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="@string/fees"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
+            </com.balysv.materialripple.MaterialRippleLayout>
 
 
         </LinearLayout>
@@ -296,93 +233,106 @@
             android:baselineAligned="false"
             android:orientation="horizontal">
 
-            <LinearLayout
+            <com.balysv.materialripple.MaterialRippleLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:background="#ffffff"
-                android:elevation="10dp"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="8dp">
+                android:layout_height="wrap_content">
 
-                <ImageView
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:contentDescription="@string/j_k_and_nri_candidates"
-                    android:padding="12dp"
-                    android:src="@drawable/ic_nriandjk"
-                    android:tint="@color/colorPrimary" />
-
-                <TextView
-                    android:layout_width="90dp"
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:elevation="10dp"
                     android:gravity="center"
-                    android:text="@string/j_k_and_nri_candidates"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
+                    android:orientation="vertical"
+                    android:padding="8dp">
 
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:contentDescription="@string/latest_notification"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_notification"
+                        android:tint="@color/colorPrimary" />
 
-            <LinearLayout
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/latest_notification"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:background="#ffffff"
-                android:elevation="10dp"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="8dp">
+                android:layout_height="wrap_content">
 
-                <ImageView
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:contentDescription="@string/faqs"
-                    android:padding="12dp"
-                    android:src="@drawable/ic_faq"
-                    android:tint="@color/colorPrimary" />
-
-                <TextView
-                    android:layout_width="90dp"
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:elevation="10dp"
                     android:gravity="center"
-                    android:text="@string/faqs"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
+                    android:orientation="vertical"
+                    android:padding="8dp">
 
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:contentDescription="@string/institute_wise_allotment"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_allotment"
+                        android:tint="@color/colorPrimary" />
 
-            <LinearLayout
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/institute_wise_allotment"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:background="#ffffff"
-                android:elevation="10dp"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="8dp">
+                android:layout_height="match_parent">
 
-                <ImageView
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:contentDescription="@string/ask_questions"
-                    android:padding="12dp"
-                    android:src="@drawable/ic_askquestion"
-                    android:tint="@color/colorPrimary" />
-
-                <TextView
-                    android:layout_width="90dp"
-                    android:layout_height="wrap_content"
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:elevation="10dp"
                     android:gravity="center"
-                    android:text="@string/ask_questions"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
+                    android:orientation="vertical"
+                    android:padding="8dp">
 
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:contentDescription="@string/fees"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_fees"
+                        android:tint="@color/colorPrimary" />
 
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/fees"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
         </LinearLayout>
 
         <LinearLayout
@@ -391,92 +341,216 @@
             android:baselineAligned="false"
             android:orientation="horizontal">
 
-            <LinearLayout
+            <com.balysv.materialripple.MaterialRippleLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:background="#ffffff"
-                android:elevation="10dp"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="8dp">
+                android:layout_height="wrap_content">
 
-                <ImageView
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:contentDescription="@string/my_questions"
-                    android:padding="12dp"
-                    android:src="@drawable/ic_myquestions"
-                    android:tint="@color/colorPrimary" />
-
-                <TextView
-                    android:layout_width="90dp"
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:elevation="10dp"
                     android:gravity="center"
-                    android:text="@string/my_questions"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
+                    android:orientation="vertical"
+                    android:padding="8dp">
 
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:contentDescription="@string/j_k_and_nri_candidates"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_nriandjk"
+                        android:tint="@color/colorPrimary" />
 
-            <LinearLayout
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/j_k_and_nri_candidates"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:background="#ffffff"
-                android:elevation="10dp"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="8dp">
+                android:layout_height="match_parent">
 
-                <ImageView
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:contentDescription="@string/contact_dte"
-                    android:padding="12dp"
-                    android:src="@drawable/ic_call_answer"
-                    android:tint="@color/colorPrimary" />
-
-                <TextView
-                    android:layout_width="90dp"
-                    android:layout_height="wrap_content"
+                <LinearLayout
+                    android:id="@+id/faq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:elevation="10dp"
                     android:gravity="center"
-                    android:text="@string/contact_dte"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
+                    android:orientation="vertical"
+                    android:padding="8dp">
 
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:contentDescription="@string/faqs"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_faq"
+                        android:tint="@color/colorPrimary" />
 
-            <LinearLayout
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/faqs"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:background="#ffffff"
-                android:elevation="10dp"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="8dp">
+                android:layout_height="wrap_content">
 
-                <ImageView
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:contentDescription="@string/developers"
-                    android:padding="12dp"
-                    android:src="@drawable/ic_developers"
-                    android:tint="@color/colorPrimary" />
 
-                <TextView
-                    android:layout_width="90dp"
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:elevation="10dp"
                     android:gravity="center"
-                    android:text="@string/developers"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
+                    android:orientation="vertical"
+                    android:padding="8dp">
 
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:contentDescription="@string/ask_questions"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_askquestion"
+                        android:tint="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/ask_questions"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:elevation="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:contentDescription="@string/my_questions"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_myquestions"
+                        android:tint="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/my_questions"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:elevation="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:contentDescription="@string/contact_dte"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_call_answer"
+                        android:tint="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/contact_dte"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/developers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:elevation="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:contentDescription="@string/developers"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_developers"
+                        android:tint="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/developers"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </com.balysv.materialripple.MaterialRippleLayout>
 
         </LinearLayout>
 
