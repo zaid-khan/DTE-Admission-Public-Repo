@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        tools:context=".FAQ">
+
+        <TextView
+            style="@style/QuestionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q1" />
+
+        <TextView
+            style="@style/AnswerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ans1" />
+
+        <TextView
+            style="@style/QuestionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q2" />
+
+        <TextView
+            style="@style/AnswerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ans2" />
+
+
+        <TextView
+            style="@style/QuestionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q3" />
+
+        <TextView
+            style="@style/AnswerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ans3" />
+
+        <TextView
+            style="@style/QuestionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q4" />
+
+        <TextView
+            style="@style/AnswerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ans4" />
+
+        <TextView
+            style="@style/QuestionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q5" />
+
+        <TextView
+            style="@style/AnswerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ans5" />
+
+        <TextView
+            style="@style/QuestionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q6" />
+
+        <TextView
+            style="@style/AnswerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ans6" />
+
+        <TextView
+            style="@style/QuestionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q7" />
+
+        <TextView
+            style="@style/AnswerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ans7" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
