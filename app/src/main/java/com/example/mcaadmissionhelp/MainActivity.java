@@ -22,5 +22,17 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    @OnClick(R.id.card_colleges)
+    void onCollegesClick() {
+        Intent intent = new Intent(this, College.class);
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.card_ask_questions)
+    void onAskQuestionClick() {
+        Intent intent = new Intent(this, AskQuestions.class);
+        startActivity(intent);
+    }
+
 
 }

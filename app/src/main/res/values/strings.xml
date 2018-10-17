@@ -30,4 +30,7 @@
     <string name="q7">"Q : I have completed my Graduation from Nagpur and I am Type B candidate as I have domicile of my Father issued by authority at Jalgaon. What will be my Home University? "</string>
     <string name="ans7">"Ans : The Home University depends on district of the domicile certificate issuing authority which is Jalgon. Hence the Home University shall be North Maharashtra University. "</string>
 
+
+    <string name="send">Send</string>
+    <string name="type_a_message">Type a message</string>
 </resources>
