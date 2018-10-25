@@ -55,6 +55,7 @@
                 android:layout_height="wrap_content">
 
                 <LinearLayout
+                    android:id="@+id/card_fc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
@@ -89,6 +90,7 @@
                 android:layout_height="wrap_content">
 
                 <LinearLayout
+                    android:id="@+id/card_arc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
@@ -198,6 +200,7 @@
                 android:layout_height="match_parent">
 
                 <LinearLayout
+                    android:id="@+id/card_imp_dates"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_margin="8dp"
@@ -308,6 +311,7 @@
                 android:layout_height="match_parent">
 
                 <LinearLayout
+                    android:id="@+id/card_fees"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_margin="8dp"
@@ -349,6 +353,7 @@
                 android:layout_height="wrap_content">
 
                 <LinearLayout
+                    android:id="@+id/card_jk_nri"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"

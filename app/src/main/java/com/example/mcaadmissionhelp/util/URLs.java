@@ -8,6 +8,10 @@ public class URLs {
     public static final String URL_REGISTER = ROOT_URL + "register.php";
     public static final String URL_LOGIN = ROOT_URL + "login.php";
     public static final String URL_COLLEGES = ROOT_URL + "getColleges.php";
+    public static final String URL_FCS = ROOT_URL + "getFCs.php";
+    public static final String URL_ARCS = ROOT_URL + "getARCs.php";
+
+
     public static final String URL_PROFILE = ROOT_URL + "getProfile.php";
     public static final String URL_SEND_MESSAGE = ROOT_URL + "sendMessage.php";
     public static final String URL_GET_MESSAGING_USERS = ROOT_URL + "getMessagingUsers.php";

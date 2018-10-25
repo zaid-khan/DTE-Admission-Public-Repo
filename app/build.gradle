@@ -22,6 +22,18 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    packagingOptions {
+        exclude 'META-INF/INDEX.LIST'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+        exclude 'META-INF/DEPENDENCIES'
+    }
+
 }
 
 dependencies {
@@ -35,6 +47,9 @@ dependencies {
     implementation 'com.android.support:support-v4:28.0.0'
 
     implementation 'com.android.support:design:28.0.0'
+
+    //dialogflow
+    implementation 'com.google.cloud:google-cloud-dialogflow:0.67.0-alpha'
 
 
     implementation 'com.jakewharton:butterknife:8.8.1'

@@ -40,6 +40,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/bg_chat_edit_text"
+            android:padding="8dp"
             android:hint="@string/type_a_message"
             android:inputType="textMultiLine" />
 
