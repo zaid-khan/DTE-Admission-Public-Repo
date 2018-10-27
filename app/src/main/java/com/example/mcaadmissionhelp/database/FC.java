@@ -1,67 +1,68 @@
 package com.example.mcaadmissionhelp.database;
 
 public class FC {
-    private int id;
-    private String code;
-    private String address;
-    private String reach;
-    private String collegeName;
-    private String city;
+    private int Id;
+    private String Code;
+    private String Address;
+    private String HowToReach;
+    private String CollegeName;
+    private String City;
 
-    public FC(int id, String code, String address, String reach, String collegeName, String city) {
-        this.id = id;
-        this.code = code;
-        this.address = address;
-        this.reach = reach;
-        this.collegeName = collegeName;
-        this.city = city;
+    public FC(int id, String code, String address, String howToReach, String collegeName, String city) {
+        Id = id;
+        Code = code;
+        Address = address;
+        HowToReach = howToReach;
+        CollegeName = collegeName;
+        City = city;
     }
 
     public int getId() {
-        return id;
+        return Id;
     }
 
     public void setId(int id) {
-        this.id = id;
+        Id = id;
     }
 
     public String getCode() {
-        return code;
+        return Code;
     }
 
     public void setCode(String code) {
-        this.code = code;
+        Code = code;
     }
 
     public String getAddress() {
-        return address;
+        return Address;
     }
 
     public void setAddress(String address) {
-        this.address = address;
+        Address = address;
     }
 
-    public String getReach() {
-        return reach;
+    public String getHowToReach() {
+        return HowToReach;
     }
 
-    public void setReach(String reach) {
-        this.reach = reach;
+    public void setHowToReach(String howToReach) {
+        HowToReach = howToReach;
     }
 
     public String getCollegeName() {
-        return collegeName;
+        return CollegeName;
     }
 
     public void setCollegeName(String collegeName) {
-        this.collegeName = collegeName;
+        CollegeName = collegeName;
     }
 
     public String getCity() {
-        return city;
+        return City;
     }
 
     public void setCity(String city) {
-        this.city = city;
+        City = city;
     }
 }
+

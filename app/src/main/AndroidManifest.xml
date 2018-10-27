@@ -28,6 +28,7 @@
         <activity
             android:name=".AskQuestions"
             android:label="Ask Questions" />
+        <activity android:name=".WebViewActivity" />
     </application>
 
 </manifest>
