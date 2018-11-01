@@ -65,6 +65,33 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    @OnClick(R.id.card_admission_steps)
+    void onAdmissionStepsClick() {
+        Intent intent = new Intent(this, AdmissionProcess.class);
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.card_latest_notification)
+    void onNotificationClick() {
+        Intent intent = new Intent(this, WebViewActivity.class);
+        intent.putExtra(Constants.FLAG, Constants.NOTIFICATION_FLAG);
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.card_jk_nri)
+    void onJkNriClick() {
+        Intent intent = new Intent(this, WebViewActivity.class);
+        intent.putExtra(Constants.FLAG, Constants.JK_NRI_FLAG);
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.developers)
+    void onDevelopersClick() {
+        Intent intent = new Intent(this, WebViewActivity.class);
+        intent.putExtra(Constants.FLAG, Constants.DEVELOPERS_FLAG);
+        startActivity(intent);
+    }
+
 
 
 

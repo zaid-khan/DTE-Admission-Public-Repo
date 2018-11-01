@@ -132,6 +132,7 @@
                 android:layout_height="wrap_content">
 
                 <LinearLayout
+                    android:id="@+id/card_eligibility"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
@@ -166,6 +167,7 @@
                 android:layout_height="match_parent">
 
                 <LinearLayout
+                    android:id="@+id/card_admission_steps"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_margin="8dp"
@@ -244,6 +246,7 @@
                 android:layout_height="match_parent">
 
                 <LinearLayout
+                    android:id="@+id/card_latest_notification"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_margin="8dp"
@@ -277,6 +280,7 @@
                 android:layout_height="wrap_content">
 
                 <LinearLayout
+                    android:id="@+id/card_allotment"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
@@ -464,6 +468,7 @@
                 android:layout_height="wrap_content">
 
                 <LinearLayout
+                    android:id="@+id/card_my_question"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
@@ -498,6 +503,7 @@
                 android:layout_height="match_parent">
 
                 <LinearLayout
+                    android:id="@+id/card_contact_dte"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_margin="8dp"

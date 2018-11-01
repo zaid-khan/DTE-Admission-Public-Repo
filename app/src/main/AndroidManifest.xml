@@ -29,6 +29,7 @@
             android:name=".AskQuestions"
             android:label="Ask Questions" />
         <activity android:name=".WebViewActivity" />
+        <activity android:name=".AdmissionProcess" />
     </application>
 
 </manifest>

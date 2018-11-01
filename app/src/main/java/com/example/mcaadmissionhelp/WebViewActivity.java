@@ -41,8 +41,11 @@ public class WebViewActivity extends AppCompatActivity {
             @Override
             public void onPageFinished(WebView view, String url) {
                 super.onPageFinished(view, url);
-                Toast.makeText(getApplicationContext(), "page loaded " + url, Toast.LENGTH_LONG).show();
-
+                if (flag == 4) {
+                    mWebView.loadUrl("javascript:document.getElementById('content2').scrollIntoView();");
+                } else {
+                    mWebView.loadUrl("javascript:document.getElementById('content').scrollIntoView();");
+                }
             }
 
             @Override
@@ -62,16 +65,32 @@ public class WebViewActivity extends AppCompatActivity {
         });
         switch (flag) {
             case 1:
-                Url = "https://www.mca18.dtemaharashtra.org/mca18/index.php/hp_controller/fees#content";
+                Url = "https://mca18.dtemaharashtra.org/mca18/index.php/hp_controller/fees";
                 // Url="https://retail.onlinesbi.com/retail/login.htm";
-                mActionBar.setTitle("Fees");
+                mActionBar.setTitle(getString(R.string.fees));
+
+                //mWebView.loadUrl("javascript:document.getElementById('content').scrollIntoView();");
                 break;
             case 2:
                 Url = "https://mca18.dtemaharashtra.org/mca18/index.php/hp_controller/impDates";
-                mActionBar.setTitle("Important Dates");
+                mActionBar.setTitle(getString(R.string.important_dates));
+                break;
+            case 4:
+                Url = "https://mca18.dtemaharashtra.org/mca18/index.php/hp_controller/fn_nri";
+                mActionBar.setTitle(getString(R.string.j_k_and_nri_candidates));
+                break;
+            case 3:
+                Url = "https://mca18.dtemaharashtra.org/mca18/index.php";
+                mActionBar.setTitle(getString(R.string.latest_notification));
+                break;
+            case 5:
+                Url = "file:///android_asset/aboutussections/index.html";
+                mActionBar.setTitle(getString(R.string.developers));
                 break;
 
         }
         mWebView.loadUrl(Url);
+
+
     }
 }
