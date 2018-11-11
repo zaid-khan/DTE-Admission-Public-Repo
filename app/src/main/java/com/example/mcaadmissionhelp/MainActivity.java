@@ -92,6 +92,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    @OnClick(R.id.card_contact_dte)
+    void onContactDTEClick() {
+        Intent intent = new Intent(this, WebViewActivity.class);
+        intent.putExtra(Constants.FLAG, Constants.CONTACT_DTE_FLAG);
+
+        startActivity(intent);
+    }
+
 
 
 

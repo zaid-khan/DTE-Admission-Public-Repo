@@ -3,6 +3,8 @@
     package="com.example.mcaadmissionhelp">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
 
     <application
         android:allowBackup="true"
@@ -30,6 +32,7 @@
             android:label="Ask Questions" />
         <activity android:name=".WebViewActivity" />
         <activity android:name=".AdmissionProcess" />
+        <activity android:name=".ContactDTE" />
     </application>
 
 </manifest>

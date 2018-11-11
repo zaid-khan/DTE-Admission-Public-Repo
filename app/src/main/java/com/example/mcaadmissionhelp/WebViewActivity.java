@@ -41,8 +41,8 @@ public class WebViewActivity extends AppCompatActivity {
             @Override
             public void onPageFinished(WebView view, String url) {
                 super.onPageFinished(view, url);
-                if (flag == 4) {
-                    mWebView.loadUrl("javascript:document.getElementById('content2').scrollIntoView();");
+                if (flag == 3) {
+                    mWebView.loadUrl("javascript:document.getElementsByClassName('content2').scrollIntoView();");
                 } else {
                     mWebView.loadUrl("javascript:document.getElementById('content').scrollIntoView();");
                 }
@@ -75,22 +75,24 @@ public class WebViewActivity extends AppCompatActivity {
                 Url = "https://mca18.dtemaharashtra.org/mca18/index.php/hp_controller/impDates";
                 mActionBar.setTitle(getString(R.string.important_dates));
                 break;
-            case 4:
-                Url = "https://mca18.dtemaharashtra.org/mca18/index.php/hp_controller/fn_nri";
-                mActionBar.setTitle(getString(R.string.j_k_and_nri_candidates));
-                break;
             case 3:
                 Url = "https://mca18.dtemaharashtra.org/mca18/index.php";
                 mActionBar.setTitle(getString(R.string.latest_notification));
+                break;
+            case 4:
+                Url = "https://mca18.dtemaharashtra.org/mca18/index.php/hp_controller/fn_nri";
+                mActionBar.setTitle(getString(R.string.j_k_and_nri_candidates));
                 break;
             case 5:
                 Url = "file:///android_asset/aboutussections/index.html";
                 mActionBar.setTitle(getString(R.string.developers));
                 break;
+            case 6:
+                Url = "file:///android_asset/aboutussections/contactdte.html";
+                mActionBar.setTitle(getString(R.string.contact_dte));
+                break;
 
         }
         mWebView.loadUrl(Url);
-
-
     }
 }
