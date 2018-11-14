@@ -65,7 +65,51 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    @OnClick(R.id.card_admission_steps)
+    void onAdmissionStepsClick() {
+        Intent intent = new Intent(this, AdmissionProcess.class);
+        startActivity(intent);
+    }
 
+    @OnClick(R.id.card_latest_notification)
+    void onNotificationClick() {
+        Intent intent = new Intent(this, WebViewActivity.class);
+        intent.putExtra(Constants.FLAG, Constants.NOTIFICATION_FLAG);
+        startActivity(intent);
+    }
 
+    @OnClick(R.id.card_jk_nri)
+    void onJkNriClick() {
+        Intent intent = new Intent(this, WebViewActivity.class);
+        intent.putExtra(Constants.FLAG, Constants.JK_NRI_FLAG);
+        startActivity(intent);
+    }
 
+    @OnClick(R.id.developers)
+    void onDevelopersClick() {
+        Intent intent = new Intent(this, WebViewActivity.class);
+        intent.putExtra(Constants.FLAG, Constants.DEVELOPERS_FLAG);
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.card_contact_dte)
+    void onContactDTEClick() {
+        Intent intent = new Intent(this, WebViewActivity.class);
+        intent.putExtra(Constants.FLAG, Constants.CONTACT_DTE_FLAG);
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.card_allotment)
+    void onInstituteWiseAllotmentClick() {
+        Intent intent = new Intent(this, WebViewActivity.class);
+        intent.putExtra(Constants.FLAG, Constants.INSTITUTE_WISE_ALLOTMENT);
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.card_eligibility)
+    void onEligibiltyClick() {
+        Intent intent = new Intent(this, WebViewActivity.class);
+        intent.putExtra(Constants.FLAG, Constants.ELIGIBILITY);
+        startActivity(intent);
+    }
 }
