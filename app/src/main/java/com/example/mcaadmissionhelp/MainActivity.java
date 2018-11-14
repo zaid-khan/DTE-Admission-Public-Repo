@@ -96,11 +96,20 @@ public class MainActivity extends AppCompatActivity {
     void onContactDTEClick() {
         Intent intent = new Intent(this, WebViewActivity.class);
         intent.putExtra(Constants.FLAG, Constants.CONTACT_DTE_FLAG);
-
         startActivity(intent);
     }
 
+    @OnClick(R.id.card_allotment)
+    void onInstituteWiseAllotmentClick() {
+        Intent intent = new Intent(this, WebViewActivity.class);
+        intent.putExtra(Constants.FLAG, Constants.INSTITUTE_WISE_ALLOTMENT);
+        startActivity(intent);
+    }
 
-
-
+    @OnClick(R.id.card_eligibility)
+    void onEligibiltyClick() {
+        Intent intent = new Intent(this, WebViewActivity.class);
+        intent.putExtra(Constants.FLAG, Constants.ELIGIBILITY);
+        startActivity(intent);
+    }
 }

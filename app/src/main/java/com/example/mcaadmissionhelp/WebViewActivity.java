@@ -1,5 +1,6 @@
 package com.example.mcaadmissionhelp;
 
+import android.annotation.SuppressLint;
 import android.net.http.SslError;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
@@ -13,6 +14,8 @@ import android.widget.Toast;
 
 import com.example.mcaadmissionhelp.util.Constants;
 
+import java.util.Objects;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -21,13 +24,13 @@ public class WebViewActivity extends AppCompatActivity {
     @BindView(R.id.web_view)
     WebView mWebView;
     private String Url;
-    private ActionBar mActionBar;
 
+    @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web_view);
-        mActionBar = getSupportActionBar();
+        ActionBar mActionBar = getSupportActionBar();
         ButterKnife.bind(this);
         int flag = getIntent().getIntExtra(Constants.FLAG, Constants.DEFAULT_FLAG);
         mWebView.getSettings().setJavaScriptEnabled(true);
@@ -67,17 +70,17 @@ public class WebViewActivity extends AppCompatActivity {
             case 1:
                 Url = "https://mca18.dtemaharashtra.org/mca18/index.php/hp_controller/fees";
                 // Url="https://retail.onlinesbi.com/retail/login.htm";
-                mActionBar.setTitle(getString(R.string.fees));
+                Objects.requireNonNull(mActionBar).setTitle(getString(R.string.fees));
 
                 //mWebView.loadUrl("javascript:document.getElementById('content').scrollIntoView();");
                 break;
             case 2:
                 Url = "https://mca18.dtemaharashtra.org/mca18/index.php/hp_controller/impDates";
-                mActionBar.setTitle(getString(R.string.important_dates));
+                Objects.requireNonNull(mActionBar).setTitle(getString(R.string.important_dates));
                 break;
             case 3:
                 Url = "https://mca18.dtemaharashtra.org/mca18/index.php";
-                mActionBar.setTitle(getString(R.string.latest_notification));
+                Objects.requireNonNull(mActionBar).setTitle(getString(R.string.latest_notification));
                 break;
             case 4:
                 Url = "https://mca18.dtemaharashtra.org/mca18/index.php/hp_controller/fn_nri";
@@ -91,7 +94,14 @@ public class WebViewActivity extends AppCompatActivity {
                 Url = "file:///android_asset/aboutussections/contactdte.html";
                 mActionBar.setTitle(getString(R.string.contact_dte));
                 break;
-
+            case 7:
+                Url = "https://mca18.dtemaharashtra.org/mca18/index.php/hp_controller/instwiseallotment";
+                mActionBar.setTitle(getString(R.string.institute_wise_allotment));
+                break;
+            case 8:
+                Url = "file:///android_asset/aboutussections/eligibility.html";
+                mActionBar.setTitle(getString(R.string.contact_dte));
+                break;
         }
         mWebView.loadUrl(Url);
     }

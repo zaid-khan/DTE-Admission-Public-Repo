@@ -10,6 +10,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.mcaadmissionhelp.adapter.MessagesAdapter;
 import com.example.mcaadmissionhelp.database.Message;
@@ -75,8 +76,13 @@ public class AskQuestions extends AppCompatActivity {
     void sendRequest() {
         // Toast.makeText(getApplicationContext(), "Clicked", Toast.LENGTH_LONG).show();
         final String queryString = mMessageText.getText().toString();
+        if (queryString.isEmpty()) {
+            Toast.makeText(getApplicationContext(), "Enter Question..", Toast.LENGTH_LONG).show();
+            return;
+        }
         messageList.add(new Message(queryString, me));
         mMessagesAdapter.notifyDataSetChanged();
+        mMessageText.setText("");
         @SuppressLint("StaticFieldLeak") final AsyncTask<String, Void, AIResponse> task = new AsyncTask<String, Void, AIResponse>() {
             private AIError aiError;
 
